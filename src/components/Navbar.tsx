@@ -26,7 +26,7 @@ export default function Navbar() {
     { name: 'Contact', href: '/contact' },
   ];
 
-  const isSolid = !isHomePage || scrolled;
+  const isSolid = !isHomePage || scrolled || mobileMenuOpen;
 
   return (
     <motion.nav
