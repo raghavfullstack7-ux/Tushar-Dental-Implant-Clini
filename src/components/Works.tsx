@@ -64,7 +64,7 @@ export default function Works() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Grid */}
-        <div ref={headerRef} className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20 items-end">
+        <div ref={headerRef} className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-10 md:mb-20 items-end">
           <div>
              <span className="works-header-anim flex items-center gap-4 text-sm font-medium text-gray-600 uppercase tracking-widest mb-6">
               (our works) <div className="w-12 h-[1px] bg-gray-400"></div>

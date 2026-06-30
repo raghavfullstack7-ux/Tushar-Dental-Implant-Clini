@@ -69,7 +69,7 @@ export default function FAQ() {
   return (
     <section ref={sectionRef} className="py-16 md:py-24 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <span className="faq-header-anim inline-block py-1 px-3 rounded-full bg-clinic-green-light text-clinic-dark text-sm font-medium mb-4">
             (FAQ)
           </span>

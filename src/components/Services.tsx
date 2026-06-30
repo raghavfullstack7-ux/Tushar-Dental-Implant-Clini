@@ -88,7 +88,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div ref={headerRef} className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-8">
+        <div ref={headerRef} className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 md:mb-20 gap-8">
           <h2 className="services-header-anim text-4xl md:text-5xl font-semibold text-clinic-dark max-w-sm leading-tight">
             Services We Provide<br />Are Listed Below
           </h2>

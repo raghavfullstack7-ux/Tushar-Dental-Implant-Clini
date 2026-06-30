@@ -73,7 +73,7 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 md:mb-16 gap-6">
           <div>
             <h2 className="testi-header-anim text-4xl md:text-5xl font-semibold text-clinic-dark mb-4">
               What Our Clients Say

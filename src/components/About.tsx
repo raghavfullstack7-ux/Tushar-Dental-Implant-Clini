@@ -54,7 +54,7 @@ export default function About() {
     <section id="about" ref={sectionRef} className="py-16 md:py-24 lg:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left Content */}
           <div className="flex flex-col">
             <span className="about-text-anim text-sm font-medium text-gray-500 uppercase tracking-widest mb-6 flex items-center gap-4">
@@ -114,7 +114,7 @@ export default function About() {
           {/* Right Content - Images Bento Grid */}
           <div ref={imagesRef} className="flex flex-col md:grid md:grid-cols-2 gap-4 h-auto md:h-[600px] lg:h-[750px] mt-12 lg:mt-0">
             {/* Main Large Image */}
-            <div className="about-img-anim rounded-[2rem] overflow-hidden relative h-[300px] md:h-auto">
+            <div className="about-img-anim rounded-[2rem] overflow-hidden relative h-[300px] sm:h-[400px] md:h-auto">
               <img 
                 src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop" 
                 alt="Dental checkup" 
@@ -125,7 +125,7 @@ export default function About() {
             {/* Right Column Grid */}
             <div className="flex flex-col md:grid md:grid-rows-12 gap-4 h-auto md:h-full">
               {/* Top Right */}
-              <div className="about-img-anim md:row-span-7 rounded-[2rem] overflow-hidden relative h-[250px] md:h-auto">
+              <div className="about-img-anim md:row-span-7 rounded-[2rem] overflow-hidden relative h-[250px] sm:h-[300px] md:h-auto">
                 <img 
                   src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2070&auto=format&fit=crop" 
                   alt="Dental tools" 
