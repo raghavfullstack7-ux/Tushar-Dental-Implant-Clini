@@ -1,0 +1,6 @@
+{
+  "name": "Tushar Dental Clinic",
+  "description": "Modern dental clinic website with appointment booking and services overview.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

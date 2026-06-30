@@ -1,0 +1,28 @@
+import { Outlet, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import WhatsAppButton from './WhatsAppButton';
+import BackToTopButton from './BackToTopButton';
+import { Toaster } from 'sonner';
+
+export default function Layout() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return (
+    <div className="min-h-screen bg-clinic-bg flex flex-col font-sans text-clinic-dark">
+      <Toaster position="top-center" />
+      <Navbar />
+      <main className="flex-1">
+        <Outlet />
+      </main>
+      <Footer />
+      <WhatsAppButton />
+      <BackToTopButton />
+    </div>
+  );
+}
